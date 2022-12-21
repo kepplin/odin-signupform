@@ -36,10 +36,23 @@ body {
 }
 .imageText{
     color: white;
-    font-family: 'Norse Bold';
+    font-family: 'Norse Bold', Arial, Helvetica, sans-serif;
     font-size: 95px;
+}
+.creditText{
+    text-align: center;
+    padding: 15px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.8);
+}
+a:link,
+a:visited{
+    color: rgba(255, 255, 255, 0.9);
 }
 @font-face {
     font-family: 'Norse Bold';
     src: url(fonts/Norse-Bold.otf);
 }
+/* Right Sidebar */
