@@ -121,8 +121,8 @@ input{
     font-size: 20px;
     margin: 50px 0 0 50px;
     font-weight: bold;
-    box-shadow: 0px 10px 13px -7px #7a7a7a
-
+    box-shadow: 0px 10px 13px -7px #7a7a7a;
+    cursor: pointer;
 }
 .logIn{
     margin-top: 25px;
@@ -140,4 +140,27 @@ input:invalid{
 }
 input:valid{
     border: 2px solid green;
+}
+input[type="email"] + span::after{
+    content: 'example@domain.com';
+    position: absolute;
+    font-weight: normal;
+    font-size: smaller;
+    top: 0;
+    right: 0;
+    text-align: end;
+}
+input[type="tel"] + span::after{
+    content: '123 456 7890';
+    position: absolute;
+    font-weight: normal;
+    font-size: smaller;
+    top: 0;
+    right: 0;
+    text-align: end;
+}
+.emailDiv,
+.phoneNumberDiv{
+    position: relative;
+    width: 299px;
 }
