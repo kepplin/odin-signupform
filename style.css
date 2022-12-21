@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    overflow: hidden;
+}
+.contentDiv{
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+}
+
+/* Left Sidebar */
+.leftSidebar{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100vh;
+    background-image: url(img/snowforest.jpg);
+    background-position: left;
+    background-size: cover;
+    background-color: blue;
+}
+.imageOverlayDiv{
+    display: flex;
+    background: rgba(0, 0, 0, 0.8);
+    justify-content: center;
+    align-items: center;
+    margin-top: 275px;
+}
+.imageLogo{
+    width: 115px;
+    height: 150px;
+    padding: 15px;
+}
+.imageText{
+    color: white;
+    font-family: 'Norse Bold';
+    font-size: 95px;
+}
+@font-face {
+    font-family: 'Norse Bold';
+    src: url(fonts/Norse-Bold.otf);
+}
