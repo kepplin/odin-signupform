@@ -21,6 +21,7 @@ body {
     background-image: url(img/snowforest.jpg);
     background-position: left;
     background-size: cover;
+    background-position: fixed;
     background-color: blue;
 }
 .imageOverlayDiv{
@@ -151,7 +152,7 @@ input[type="email"] + span::after{
     text-align: end;
 }
 input[type="tel"] + span::after{
-    content: '123 456 7890';
+    content: 'Ex: 123 456 7890';
     position: absolute;
     font-weight: normal;
     font-size: smaller;
@@ -162,5 +163,8 @@ input[type="tel"] + span::after{
 .emailDiv,
 .phoneNumberDiv{
     position: relative;
+    width: 299px;
+}
+.confirmPasswordDiv{
     width: 299px;
 }
