@@ -1,3 +1,3 @@
 See the live demo 👇
 
-https://kepplin.github.io/odin-calculator/
+https://kepplin.github.io/odin-signupform/
