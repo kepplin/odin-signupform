@@ -24,10 +24,8 @@ This is a project for [The Odin Project](https://www.theodinproject.com/lessons/
 
 ## Credits
 
+- [Unsplash](https://unsplash.com/@godfrey15)
+
 - Inspiration template: 
 
 ![inspiration](https://user-images.githubusercontent.com/107027281/211233617-b2e5dcea-e78a-4379-83a9-42d3ea9ba9e5.png)
-
-- [Unsplash](https://unsplash.com/@godfrey15)
-
-
