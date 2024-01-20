@@ -28,4 +28,4 @@ This is a project for [The Odin Project](https://www.theodinproject.com/lessons/
 
 - Inspiration template: 
 
-![inspiration](https://user-images.githubusercontent.com/107027281/211233617-b2e5dcea-e78a-4379-83a9-42d3ea9ba9e5.png)
+![inspiration](![inspo](https://github.com/kepplin/odin-signupform/assets/107027281/4a6a44fa-ae6c-41e2-8bf9-29987ef369b1))
